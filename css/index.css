@@ -47,36 +47,28 @@ a:hover {
 .intro-text {
   display: flex;
   align-items: center;
-  position: relative;
+  justify-content: center;
   width: 50%;
-  height: 500px;
   padding-top: 50px;
   margin: 0 auto;
 }
 .intro-text img {
   margin: 0 auto;
-  display: block;
   max-width: 450px;
   max-height: 450px;
   border-radius: 20%;
-  position: relative;
+  flex-shrink: 0;
 }
 .intro-bullets {
   padding-left: 50px;
-  max-width: 500px;
-  max-height: 500px;
-  display: inline;
+  flex-shrink: 0;
 }
 .intro-bullets ul {
   text-align:left;
   line-height: 250%;
-  max-height: 500px;
-  max-width: 100%
   margin: 0 auto;
   color: #303030;
-  position: relative;
   padding-left: 25px;
-  display: table;
 }
 
 ul {
