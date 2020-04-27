@@ -100,7 +100,7 @@ p {
 
 }
 
-/* laptop settings */
+/* reg settings */
 @media only screen
   and (min-device-width: 992px) {
     .about-me ul {
@@ -110,8 +110,30 @@ p {
     }
 
 }
+/* macbook */
+@media only screen
+  and (min-device-width: 1024px) {
+    .about-me ul {
+      width: 80%;
+      float: right;
+      text-align: left;
+      padding-right:15px;
+    }
+}
+
+/* laptop */
+@media only screen
+  and (min-device-width: 1600px) {
+    .about-me ul {
+      width: 70%;
+      float: right;
+      text-align: left;
+    }
+
+}
 .about-me ul {
   line-height: 200%;
+
 }
 
 .navbar {
