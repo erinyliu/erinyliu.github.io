@@ -103,12 +103,6 @@ p {
     }
 } */
 
-ul {
-  line-height: 200%;
-  display: relative;
-  padding-left: 12rem;
-  padding-right: 12rem;
-}
 
 .navbar {
   width: 100%;
