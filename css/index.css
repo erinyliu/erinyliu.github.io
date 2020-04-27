@@ -25,17 +25,20 @@ a {
 a:hover {
     color: grey;
 }
+
 p {
   text-align: center;
   font-style: "Comfortaa";
   padding-left: 8rem;
   padding-right: 8rem;
 }
+
 .q a {
   color:#714BA0;
   font-weight: bold;
   text-decoration: none;
 }
+
 .q a:hover {
   color: grey;
 }
@@ -64,67 +67,3 @@ p {
   padding-right: 50px;
   display: inline;
 }
-
-/* iphones 6-8+ */
-/* @media only screen
-  and (min-device-width: 414px)
-  and (max-device-width: 736px)
-  and (-webkit-min-device-pixel-ratio: 3) {
-    .about-me {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 100%
-    }
-    .photos img[src="./assets/about.jpg"] {
-      display: inline-table;
-      width: 70%;
-      height: 70%;
-    }
-    .about-me ul {
-      font-size: 16px;
-      display: inline-table;
-      flex:auto;
-      padding-right: 25px;
-    }
-    .photos img[src="./assets/boba.jpg"] {
-      display: none;
-    }
-} */
-/* iphones 6-8 */
-/* @media only screen
-  and (min-device-width: 375px)
-  and (max-device-width: 667px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-    .about-me {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 100%
-    }
-    .photos img[src="./assets/about.jpg"] {
-      display: inline-table;
-      width: 70%;
-      height: 70%;
-    }
-    .about-me ul {
-      font-size: 16px;
-      display: inline-table;
-      flex:auto;
-      padding-right: 25px;
-    }
-    .photos img[src="./assets/boba.jpg"] {
-      display: none;
-    }
-} */
-
-/* macbook */
- /* @media only screen
-  and (min-device-width: 992px) {
-    .about-me ul {
-      text-align: center;
-      max-width: 100%;
-      float: right;
-      padding-left: 0;
-    }
-} */
