@@ -48,31 +48,28 @@ p {
     }
     .photos img[src="./assets/about.jpg"] {
       display: inline-table;
-      flex-direction: column-reverse;
+      width: 70%;
+      height: 70%;
     }
     .about-me ul {
       font-size: 16px;
-      padding-right: 0px;
-      flex-shrink: 0px;
       display: inline-table;
       flex:auto;
-
-
+      padding-right: 25px;
     }
     .photos img[src="./assets/boba.jpg"] {
       display: none;
     }
 }
 
-@media only screen and (min-width: 815px) and (max-width: 991px) {
+@media only screen and (min-width: 815px) {
   .about-me ul {
-    padding-right: 8rem;
+    width: 70%;
+    float: right;
+    text-align: left;
   }
 }
 .about-me ul {
-  width: 70%;
-  float: right;
-  text-align: left;
   line-height: 200%;
 }
 
