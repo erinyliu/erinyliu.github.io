@@ -43,24 +43,37 @@ p {
     .about-me {
       display: flex;
       align-items: center;
+      justify-content: center;
+      width: 100%
+    }
+    .photos img[src="./assets/about.jpg"] {
+      display: inline-table;
+      flex-direction: column-reverse;
+    }
+    .about-me ul {
+      font-size: 16px;
+      padding-right: 0px;
+      flex-shrink: 0px;
+      display: inline-table;
+      flex:auto;
+
+
     }
     .photos img[src="./assets/boba.jpg"] {
       display: none;
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 992px) {
+@media only screen and (min-width: 815px) and (max-width: 991px) {
   .about-me ul {
-    width: 70%
-    margin: auto;
-    line-height: 50px;
-    padding-left: 8rem;
+    padding-right: 8rem;
   }
 }
 .about-me ul {
   width: 70%;
   float: right;
   text-align: left;
+  line-height: 200%;
 }
 
 .navbar {
