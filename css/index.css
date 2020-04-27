@@ -92,54 +92,22 @@ p {
     }
 } */
 
-/* iPad settings */
-/* @media only screen
-  and (min-device-width: 768px) {
-    .about-me ul {
-      float: right;
-      text-align: left;
-      width: 85%;
-      padding-left: 15px;
-    }
-
-} */
-
-/* reg settings */
-/* @media only screen
+/* macbook */
+ /* @media only screen
   and (min-device-width: 992px) {
     .about-me ul {
-      width: 70%;
+      text-align: center;
+      max-width: 100%;
       float: right;
-      text-align: left;
-    }
-
-} */
-/* macbook */
-/* @media only screen
-  and (min-device-width: 1024px) {
-    .about-me ul {
-      width: 80%;
-      float: right;
-      text-align: left;
-      padding-right:15px;
+      padding-left: 0;
     }
 } */
 
-/* laptop */
-/* @media only screen
-  and (min-device-width: 1600px) {
-    .about-me ul {
-      width: 70%;
-      float: right;
-      text-align: left;
-    }
-
-} */
 ul {
   line-height: 200%;
   display: relative;
-  padding-left: 8rem;
-  padding-right: 8rem;
+  padding-left: 12rem;
+  padding-right: 12rem;
 }
 
 .navbar {
