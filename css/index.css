@@ -11,6 +11,8 @@ h1 {
     text-align: center;
     margin: 0px;
     letter-spacing: 5px;
+    padding-left: 8rem;
+    padding-right: 8rem;
 }
 
 a {
@@ -26,6 +28,8 @@ a:hover {
 p {
   text-align: center;
   font-style: "Comfortaa";
+  padding-left: 8rem;
+  padding-right: 8rem;
 }
 .q a {
   color:#714BA0;
@@ -36,7 +40,7 @@ p {
   color: grey;
 }
 /* iphones 6-8+ */
-@media only screen
+/* @media only screen
   and (min-device-width: 414px)
   and (max-device-width: 736px)
   and (-webkit-min-device-pixel-ratio: 3) {
@@ -60,9 +64,9 @@ p {
     .photos img[src="./assets/boba.jpg"] {
       display: none;
     }
-}
+} */
 /* iphones 6-8 */
-@media only screen
+/* @media only screen
   and (min-device-width: 375px)
   and (max-device-width: 667px)
   and (-webkit-min-device-pixel-ratio: 2) {
@@ -86,10 +90,10 @@ p {
     .photos img[src="./assets/boba.jpg"] {
       display: none;
     }
-}
+} */
 
 /* iPad settings */
-@media only screen
+/* @media only screen
   and (min-device-width: 768px) {
     .about-me ul {
       float: right;
@@ -98,10 +102,10 @@ p {
       padding-left: 15px;
     }
 
-}
+} */
 
 /* reg settings */
-@media only screen
+/* @media only screen
   and (min-device-width: 992px) {
     .about-me ul {
       width: 70%;
@@ -109,9 +113,9 @@ p {
       text-align: left;
     }
 
-}
+} */
 /* macbook */
-@media only screen
+/* @media only screen
   and (min-device-width: 1024px) {
     .about-me ul {
       width: 80%;
@@ -119,10 +123,10 @@ p {
       text-align: left;
       padding-right:15px;
     }
-}
+} */
 
 /* laptop */
-@media only screen
+/* @media only screen
   and (min-device-width: 1600px) {
     .about-me ul {
       width: 70%;
@@ -130,10 +134,12 @@ p {
       text-align: left;
     }
 
-}
-.about-me ul {
+} */
+ul {
   line-height: 200%;
-
+  display: relative;
+  padding-left: 8rem;
+  padding-right: 8rem;
 }
 
 .navbar {
