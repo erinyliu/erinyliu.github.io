@@ -35,10 +35,36 @@ p {
 .q a:hover {
   color: grey;
 }
-
+/* iphones 6-8+ */
 @media only screen
-  and (min-device-width: 320px)
-  and (max-device-width: 480px)
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+    .about-me {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%
+    }
+    .photos img[src="./assets/about.jpg"] {
+      display: inline-table;
+      width: 70%;
+      height: 70%;
+    }
+    .about-me ul {
+      font-size: 16px;
+      display: inline-table;
+      flex:auto;
+      padding-right: 25px;
+    }
+    .photos img[src="./assets/boba.jpg"] {
+      display: none;
+    }
+}
+/* iphones 6-8 */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
   and (-webkit-min-device-pixel-ratio: 2) {
     .about-me {
       display: flex;
@@ -62,12 +88,27 @@ p {
     }
 }
 
-@media only screen and (min-width: 815px) {
-  .about-me ul {
-    width: 70%;
-    float: right;
-    text-align: left;
-  }
+/* iPad settings */
+@media only screen
+  and (min-device-width: 768px) {
+    .about-me ul {
+      float: right;
+      text-align: left;
+      width: 85%;
+      padding-left: 15px;
+    }
+
+}
+
+/* laptop settings */
+@media only screen
+  and (min-device-width: 992px) {
+    .about-me ul {
+      width: 70%;
+      float: right;
+      text-align: left;
+    }
+
 }
 .about-me ul {
   line-height: 200%;
