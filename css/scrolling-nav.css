@@ -81,7 +81,13 @@ p {
   text-decoration: none;
   color:#000080;
 }
+#contact-me a {
+  color: #4169E1;
+}
 
+#contact-me {
+  font-size: 18px;
+}
 #bio-intro a:hover, #queenlyapp a:hover,
 ul li a:hover, #contact-me a:hover{
   color:grey;
