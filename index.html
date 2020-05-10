@@ -1,49 +1,193 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="utf-8">
-    <title>Erin Liu | Home</title>
-    <link rel="icon" href="assets/icon.png">
-    <link rel="stylesheet" type="text/css" href="css/index.css">
-    <script src="https://kit.fontawesome.com/3b6aee9c5a.js" crossorigin="anonymous"></script>
-  </head>
 
-  <body>
-    <nav class="navbar">
-        <ul style="float: right">
-            <li class="navbar-icon"><a class="navbar-text" href="index.html"><i class="fas fa-home"></i></a></li>
-            <li class="navbar-icon"><a class="navbar-text" href="thoughts.html"><i class="fas fa-pencil-alt"></i></a></li>
-            <li class="navbar-icon"><a class="navbar-text" target="_blank" href="https://linkedin.com/in/erinyliu"><i class="fab fa-linkedin"></i></a></li>
-            <li class="navbar-icon"><a class="navbar-text" target="_blank" href="./assets/Erin_Liu_Resume_Apr20.pdf"><i class="fas fa-file-pdf"></i></a></li>
-            <li class="navbar-icon"><a class="navbar-text" target="_blank" href="mailto:erinyliu@berkeley.edu"><i class="far fa-envelope"></i></a></li>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Erin Liu | Home</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/scrolling-nav.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/3b6aee9c5a.js" crossorigin="anonymous"></script>
+</head>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top"><i class="fas fa-home"></i></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#experience">RESUME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact">CONTACT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger"><i class="fas fa-pencil-alt"></i></a>
+          </li>
         </ul>
-    </nav>
-
-    <div class="main">
-      <h1>ERIN LIU</h1>
-      <p> UNDER CONSTRUCTION. </p>
-      <p>
-        I'm an incoming senior at UC Berkeley studying Data Science with a concentration in Business Analytics.
-      </p>
-      <p class="q">
-        Currently learning and doing front-end development and data at <a href="https://queenlyapp.co/">Queenly</a>. Come check us out!
-      </p>
-        <div class="photos" style="display: flex; align-items: center; justify-content: center">
-          <img src="./assets/about.jpg" alt="Erin in Berkeley"
-            style="border-radius: 20%; width: 375px; height:550px; margin:25px; padding-left: 16px; padding-top: 16px">
-          <img src="./assets/staring.jpg" alt="Erin drinking boba"
-            style="border-radius: 20%; width: 375px; height:550px; margin:25px; padding-right: 16px; padding-top: 16px">
-        </div>
-          <ul style="line-height: 200%; display: relative; padding-left: 12rem; padding-right: 10rem">
-            <li> Bay Area born and raised, but hoping to work in NYC or Shenzhen some day.</li>
-            <li> I have experience in sales and product analytics, but recently started getting into software development!
-              I'm interested in learning more about data science, engineering, or product management in healthcare or fashion technology.</li>
-            <li> This summer, I'll be joining <a style="font-weight: bold;" href="https://newrelic.com">New Relic</a> as a SWE Intern on the Logging team!</li>
-          </ul>
       </div>
-  </div>
+    </div>
+  </nav>
 
-  </body>
+  <header class="container-fluid">
+    <div class="container text-center">
+      <h1>ERIN LIU</h1>
+      <p class="lead">Software Analytics | Data Science | Full-Stack Development</p>
+      <div id="sm-links">
+        <a href="https://www.facebook.com/erinnyliu"><i class="fab fa-facebook-square"></i></a>
+        <a href="https://www.instagram.com/erinyliu/"><i class="fab fa-instagram"></i></a>
+        <a href="https://linkedin.com/in/erinyliu"><i class="fab fa-linkedin"></i></a>
+        <a href="assets/Erin_Liu_Resume_May20.pdf"><i class="far fa-file-alt"></i></a>
+        <a href="mailto:erinyliu@berkeley.edu"><i class="far fa-envelope"></i></a>
+      </div>
+    </div>
+
+  </header>
+
+  <section id="about">
+    <div class="container">
+      <div class="about-me">
+        <h2 style="margin-bottom: 50px">ABOUT ME</h2>
+        <div id="about-me" class="row">
+          <div class="bio-pic">
+            <img id="me" src="assets/about.jpg" style="position: relative; border-radius:50%;width:300px;height:450px" class="rounded float-left" alt="Erin in Berkeley">
+          </div>
+          <div id="bio-description" class="col-lg-8">
+              <div id="bio-intro">I am a rising senior at UC Berkeley studying <a href="https://data.berkeley.edu/">Data Science</a>. Go Bears! 🐻</div>
+              <div id="queenlyapp">Currently learning and doing front-end development and data at <a href="https://queenlyapp.co/">Queenly</a>.</div>
+              <ul>
+                <li>I'm interested in learning more about data science, engineering, or product management in healthcare or marketplace technology.</li>
+                <li>I was planning to study abroad the National University of Singapore this fall, but the program was recently cancelled due to the pandemic. Therefore, I am now seeking internships for Fall 2020.
+                <li>I'll be joining <a href="https://newrelic.com">New Relic</a> this summer as a SWE Intern on the Logging team!</li>
+              </ul>
+              <div id="fun-facts">Fun Facts:</div>
+              <ul>
+                <li>I was a competitive rhythmic gymnast and dancer for ten years. In those years, I sprained and fractured my ankle 7 times (from attempting to figure-skate).</li>
+                <li>In high school, I worked as a gymnastics coach and technique instructor after quitting competitive sports. After I got tired of those, I decided to work at a boba shop in the months before attending Berkeley (you can guess which one).</li>
+                <li>Favorite drinks are Jasmine Green Milk Tea, New Orleans, and anything Matcha.</li>
+                <li>Favorite athlete growing up was Kobe Bryant. #RIPKB24.
+              </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience" class="bg-light">
+    <div id="experience-box-container" class="container">
+
+        <div id="exp-row" class="row justify-content-center">
+          <div class="col-md-6">
+            <h2 class="exp-heading">EXPERIENCE</h2>
+            <div id="resume-button">
+              <a style="text-decoration: none" href="assets/Erin_Liu_Resume_May20.pdf">VIEW MY FULL RESUME</a>
+            </div>
+          </div>
+        </div>
+
+        <div id="exp-content-container">
+          <div class="item">
+              <div class="logo-container">
+                <img class="logo" src="assets/nr.png">
+              </div>
+              <div class="resume-text">
+                    <div class="company"> New Relic, Inc. | Software Engineering Intern </div>
+                    <div class="date"> Incoming Summer 2020 </div>
+            </div>
+          </div>
+
+        <div class="item">
+              <div class="logo-container">
+                  <img class="logo" src="assets/queenly_app_icon.png">
+              </div>
+              <div class="resume-text">
+                      <div class="company">Queenly Inc. | Software Engineering Intern</div>
+                      <div class="date">February 2020 - May 2020</div>
+              </div>
+        </div>
+        <div class="item">
+              <div class="logo-container">
+                    <img class="logo" src="assets/yup-logo.png">
+              </div>
+              <div class="resume-text">
+                      <div class="company">Yup | Product Manager/Analyst Intern</div>
+                      <div class="date">September 2019 - November 2019</div>
+              </div>
+        </div>
+
+        <div class="item">
+              <div class="logo-container">
+                  <img class="logo" src="assets/nr.png">
+              </div>
+              <div class="resume-text">
+                      <div class="company">New Relic | Deal Strategy Analytics Intern</div>
+                      <div class="date">May 2019 - August 2019</div>
+              </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2 id="connect" style="font-size:32px">LET'S CONNECT</h2>
+          <div id="contact-me">Contact me at <a href="mailto:erinyliu@berkeley.edu">erinyliu@berkeley.edu</a> for any opportunities.</p>
+          <p>If not - let's talk data, life, music, recruiting, your hobbies, and more. Happy to chat :)
+        </div>
+      </div>
+      <div class="container" style="align-content:center;width:70%">
+      <form id="contact-form" method="POST">
+        <label for="name">Name</label>
+        <input id="name" type="text" name="name" required data-error="Please enter your name.">
+
+        <label for="email">Email</label>
+        <input id="email" type="email" name="email" required data-error="An email is required.">
+
+        <label for="subject">Message</label>
+        <textarea id="subject" name="message" required style="height:200px"></textarea>
+
+        <input type="submit" name="submit" value="Submit">
+      </form>
+      <p id="submission-msg" style="display:none;text-align:center">Thank you for your message! I will do my best to respond in less than 24 hours.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white" style="font-size:12px">Copyright 2020 &copy; Erin Liu.</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <!-- Custom JavaScript for this theme -->
+  <script src="js/scrolling-nav.js"></script>
+
+</body>
 
 </html>
