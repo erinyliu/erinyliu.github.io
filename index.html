@@ -157,20 +157,25 @@
           <p>If not - let's talk data, life, music, recruiting, your hobbies, and more. Happy to chat :)
         </div>
       </div>
-      <div class="container" style="align-content:center;width:50%">
-      <form id="contact-form" method="POST">
-        <label for="name">Name</label>
-        <input id="name" type="text" name="name" required data-error="Please enter your name.">
+      <div id="contact-form-container" class="container">
+        <div>
+          <img id="contact-img" src="assets/staring.jpg" alt="Erin in SJ">
+        </div>
+        <div id="form">
+        <form id="contact-form" method="POST">
+          <label for="name">Name</label>
+          <input id="name" type="text" name="name" required data-error="Please enter your name.">
 
-        <label for="email">Email</label>
-        <input id="email" type="email" name="email" required data-error="An email is required.">
+          <label for="email">Email</label>
+          <input id="email" type="email" name="email" required data-error="An email is required.">
 
-        <label for="subject">Message</label>
-        <textarea id="subject" name="message" required style="height:200px"></textarea>
+          <label for="subject">Message</label>
+          <textarea id="subject" name="message" required style="height:200px"></textarea>
 
-        <input type="submit" name="submit" value="Submit">
-      </form>
-      <p id="submission-msg" style="display:none;text-align:center">Thank you for your message! I will do my best to respond in less than 24 hours.</p>
+          <input type="submit" name="submit" value="Submit">
+        </form>
+        <p id="submission-msg" style="display:none;text-align:center">Thank you for your message! I will do my best to respond in less than 24 hours.</p>
+        </div>
       </div>
     </div>
   </section>

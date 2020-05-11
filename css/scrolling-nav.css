@@ -88,6 +88,11 @@ p {
 #contact-me {
   font-size: 18px;
 }
+
+#contact-form-container {
+  display: relative;
+}
+
 #bio-intro a:hover, #queenlyapp a:hover,
 ul li a:hover, #contact-me a:hover{
   color:grey;
@@ -97,7 +102,22 @@ ul li a:hover, #contact-me a:hover{
 ul li a {
   color:#87CEEB;
 }
-
+#contact-form-container {
+  width: 70%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+#contact-img {
+  width:275px;
+  height:400px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+}
+#contact-form {
+  margin-left: 50px;
+  max-height: 100px;
+}
 /* contact form */
 input[type=text], input[type=email], select, textarea {
   width: 100%;
@@ -198,6 +218,12 @@ input[type=submit]:hover {
   }
   #exp-content-container {
     left:5%;
+  }
+  #contact-img {
+    display: none;
+  }
+  #contact-form {
+    margin: 0px;
   }
 
 }
