@@ -44,7 +44,7 @@ p {
   font-size: 32px;
   align-items: center;
 }
-#sm-links a:hover {
+#home-button:hover, #sm-links a:hover {
   color:#DCDCDC;
 }
 
