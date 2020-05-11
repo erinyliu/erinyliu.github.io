@@ -200,7 +200,7 @@ input[type=submit]:hover {
   color: #4E93A8;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:767px) {
   .company {
     font-size: 16px;
   }
