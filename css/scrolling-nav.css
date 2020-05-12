@@ -224,6 +224,9 @@ input[type=submit]:hover {
   #contact-form {
     margin: 0px;
   }
+  #contact-form-container {
+    width:90%
+  }
 
 }
 @media only screen and (device-width: 768px) {
@@ -231,6 +234,9 @@ input[type=submit]:hover {
     left: 75px;
   }
   #exp-content-container {
-    left:15%;
+    left:10%;
+  }
+  #contact-form-container {
+    width:100%;
   }
 }
