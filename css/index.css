@@ -60,16 +60,9 @@ p {
   margin-bottom: 5px;
 }
  /* hovers  */
-#bio-intro, #contact-me {
+#bio-intro, #contact-me, #nr {
   text-align: center;
   font-size: 20px;
-}
-
-#queenlyapp {
-  font-size: 18px;
-  text-align: center;
-  margin-top: 5px;
-  margin-bottom: 10px;
 }
 
 #queenlyapp a {
@@ -84,6 +77,10 @@ p {
 #contact-me a {
   color: #4169E1;
 }
+#nr a {
+  color:#87CEEB;
+
+}
 
 #contact-me {
   font-size: 18px;
@@ -94,14 +91,11 @@ p {
 }
 
 #bio-intro a:hover, #queenlyapp a:hover,
-ul li a:hover, #contact-me a:hover{
+#nr a:hover, #contact-me a:hover{
   color:grey;
   text-decoration: none;
 }
 
-ul li a {
-  color:#87CEEB;
-}
 #contact-form-container {
   width: 70%;
   justify-content: center;
